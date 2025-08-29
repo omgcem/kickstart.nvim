@@ -1,5 +1,11 @@
 return {
   'stevearc/oil.nvim',
+  keys = { {
+    '-',
+    '<cmd>Oil<CR>',
+    mode = 'n',
+    desc = 'Open parent directory',
+  } },
   ---@module 'oil'
   ---@type oil.SetupOpts
   opts = {},
